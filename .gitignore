@@ -1,0 +1,16 @@
+# Virtual environments
+venv/
+.venv/
+ENV/
+
+# Environment and sensitive keys
+.env
+cube_metricmind/.env
+
+# Node modules (Cube server dependencies can be re-installed via npm install)
+cube_metricmind/node_modules/
+cube_metricmind/.cubestore/
+
+# Python cache
+__pycache__/
+*.py[cod]

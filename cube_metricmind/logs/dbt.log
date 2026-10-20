@@ -1,0 +1,30 @@
+[0m17:19:48.414676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217B9AC3380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217BC2D7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217BC2D7B10>]}
+
+
+============================== 17:19:48.427905 | c28d584d-bd49-4d17-b70f-cac76e599d82 ==============================
+[0m17:19:48.427905 [info ] [MainThread]: Running with dbt=1.12.5
+[0m17:19:48.428833 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Nikhil\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt docs generate', 'log_path': 'logs'}
+[0m17:19:48.429642 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\MetricMind\cube_metricmind\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:19:48.430812 [debug] [MainThread]: Command `dbt docs generate` failed at 17:19:48.430661 after 0.35 seconds
+[0m17:19:48.431265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217BC2CA3F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217BC312690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217BC2C3CE0>]}
+[0m17:19:48.431863 [debug] [MainThread]: Flushing usage events
+[0m17:19:50.434290 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:19:53.364285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D4017380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D114CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D6897D90>]}
+
+
+============================== 17:19:53.373211 | 048e7773-996a-41ee-b2ef-345c78872139 ==============================
+[0m17:19:53.373211 [info ] [MainThread]: Running with dbt=1.12.5
+[0m17:19:53.374136 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Nikhil\\.dbt', 'invocation_command': 'dbt docs serve', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m17:19:53.374756 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\MetricMind\cube_metricmind\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:19:53.375871 [debug] [MainThread]: Command `dbt docs serve` failed at 17:19:53.375728 after 0.20 seconds
+[0m17:19:53.376314 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D68516E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D676E7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D684A030>]}
+[0m17:19:53.376719 [debug] [MainThread]: Flushing usage events
+[0m17:19:55.245990 [debug] [MainThread]: An error was encountered while trying to flush usage events
